@@ -90,8 +90,8 @@ header {
             justify-content: space-between;
         .user {
             width: 32%;
-            height: 180px;
-            padding: 15px 0 0 15px;
+            min-height: 180px;
+            padding: 15px 0 15px 15px;
             margin-bottom: 15px;
             border-radius: 12px;
             cursor: pointer;
@@ -120,10 +120,11 @@ header {
                     display: inline-block;
                     padding: 2px 8px;
                     margin: 0 2px 6px 0;
-                    font-size: 0.9rem;
+                    font-size: 0.85rem;
                     color: #516FD4;
                     border: 1px solid #BFC8E6;
                     border-radius: 12px;
+                    cursor: pointer;
                 }
             }
 
