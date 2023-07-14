@@ -45,6 +45,7 @@ header {
                 padding: 15px;
                 font-size: 1.3rem;
                 font-weight: bold;
+                z-index: 1;
                 &:hover {
                     color: white; 
                     background-color: black; 
